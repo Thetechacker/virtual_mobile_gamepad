@@ -134,3 +134,12 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# ...
+# .vscode/
+.stfolder/
+build/
+js_build/
+node_modules/
+.stignore
+package-lock.json

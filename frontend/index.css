@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: monospace;
+
+    background-color: #28282B;
+    color: white;
+
+    overflow: hidden;
+}
+
+#gamePadStatus::before {
+    color: orange;
+
+    content: "Disconnected";
+}
+
+#gamePadStatus.connecting::before {
+    color: yellow;
+
+    content: "Connecting...";
+}
+
+#gamePadStatus.connected::before {
+    color: greenyellow;
+
+    content: "Connected";
+}
+
+#gamePadStatus.disconnected::before {
+    color: red;
+
+    content: "Disconnected";
+}
+
+.button {
+    user-select: none;
+}

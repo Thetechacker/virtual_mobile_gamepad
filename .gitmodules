@@ -1,0 +1,3 @@
+[submodule "ts_src/ts_labs"]
+	path = ts_src/ts_labs
+	url = https://github.com/Thetechacker/ts_labs
